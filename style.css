@@ -1,23 +1,29 @@
 h1{
-    color:rgb(9, 52, 243);
+    color:rgb(243, 9, 192);
     font-size:50px;
     text-align: center;
 }
 h2{
-    color:rgb(240, 134, 6);
+    color:rgb(243, 9, 192);
     text-align: center;
 }
+h3{
+    color:aliceblue
+}
 body{
-    background-image: url("https://i.pinimg.com/originals/4c/11/48/4c1148dfc5be8062bc99749a4435e2a3.gif");
+    background-image: url("https://usagif.com/wp-content/uploads/gif/blushing-8.gif");
+        text-align: center;
 }
 img{
     width: 300px;
 }
 footer{
-    color: rgb(245, 136, 4);
+    color: rgb(243, 9, 192);
 }
 .imagem{
     text-align: center;
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0);
 }
-    
+img{
+
+}

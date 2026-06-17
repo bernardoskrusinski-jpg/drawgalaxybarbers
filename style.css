@@ -15,15 +15,19 @@ body{
         text-align: center;
 }
 img{
-    width: 300px;
+    width: 200px;
 }
 footer{
     color: rgb(243, 9, 192);
 }
 .imagem{
     text-align: center;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(247, 4, 186, 0.925);
+    width: 300px;
+    margin: auto;
+    border-style: dashed;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    border-color: aliceblue;
 }
-img{
 
-}

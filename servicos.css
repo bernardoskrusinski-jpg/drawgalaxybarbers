@@ -1,3 +1,26 @@
-header[
- 
-]
+header{
+    background-color: rgb(219, 219, 0);
+    padding: 20px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px
+}
+nav a{
+    text-transform: uppercase;
+    color:beige;
+    font-weight:beige;
+    font-size: 22px;
+    text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+

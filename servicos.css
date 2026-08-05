@@ -43,7 +43,21 @@ header img{
     margin: 0 1.5%;
     padding: 30px 1px;
     box-sizing: border-box;
+    border: 2px solid rgb(26, 151, 189);
+    border-radius: 30px;
 }
 .servicos img{
     width: 220px;
+}
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao{
+    font-size: 19px;
+}
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }

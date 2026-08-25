@@ -1,33 +1,109 @@
-h1{
-    color:rgb(243, 9, 192);
-    font-size:50px;
-    text-align: center;
+header{
+    background-color: rgb(0, 208, 255);
+    padding: 20px;
 }
-h2{
-    color:rgb(243, 9, 192);
-    text-align: center;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
-h3{
-    color:aliceblue
+nav li{
+    display: inline;
+    margin: 0 0 0 20px
 }
-body{
-    background-image: url("https://usagif.com/wp-content/uploads/gif/blushing-8.gif");
-        text-align: center;
+nav a{
+    text-transform: uppercase;
+    color:rgb(7, 76, 204);
+    font-weight:rgb(129, 21, 72);
+    font-size: 22px;
+    text-decoration: none;
 }
-img{
+.caixa{
+    position: relative;
+    width: 1800px;
+    height: 220px;
+    margin: 0 auto;
+}
+header img{
     width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
-footer{
-    color: rgb(243, 9, 192);
+.servicos{
+    width: 1800px; 
+    margin: 0 auto;
+    padding: 50px 0;
 }
-.imagem{
+.servicos li{
+    display: inline-block;
     text-align: center;
-    background-color: rgba(247, 4, 186, 0.925);
-    width: 300px;
-    margin: auto;
-    border-style: dashed;
-    border-radius: 50px;
-    margin-bottom: 50px;
-    border-color: aliceblue;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 1px;
+    box-sizing: border-box;
+    border: 2px solid rgb(26, 151, 189);
+    border-radius: 30px;
 }
+.servicos img{
+    width: 220px;
+}
+.servicos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao{
+    font-size: 19px;
+}
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+    color: rgb(0, 4, 255);
+    text-decoration: underline;
+}
+.servicos li:hover{
+    border-color: blue;
+}
+.servicos li:active{
+border-color: blue;
+}
+.servicos li:hover h2 {
+    font-size: 60px;
+    color:rgb(31, 123, 160)
+}
+footer {
+    text-align: center;
+    background-color:rgb(0, 208, 255);
+    padding: 39px 0;
+}
+footer img{
+    width: 100px;
+}
+.copyright {
+    color:black;
+    font-size:13px;
+    margin:20px 0 0;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+form input{
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 
+}

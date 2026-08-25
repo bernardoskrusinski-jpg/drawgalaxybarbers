@@ -1,0 +1,33 @@
+h1{
+    color:rgb(1, 225, 241);
+    font-size:50px;
+    text-align: center;
+}
+h2{
+    color:rgb(229, 255, 0);
+    text-align: center;
+}
+h3{
+    color:aliceblue
+}
+body{
+    background-image: url("https://media1.tenor.com/m/s7likHt_4dQAAAAC/walter-white-breaking-bad.gif");
+        text-align: center;
+}
+img{
+    width: 200px;
+}
+footer{
+    color: rgb(9, 216, 243);
+}
+.imagem{
+    text-align: center;
+    background-color: rgba(3, 3, 0, 0.925);
+    width: 300px;
+    margin: auto;
+    border-style: dashed;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    border-color: aliceblue;
+}
+

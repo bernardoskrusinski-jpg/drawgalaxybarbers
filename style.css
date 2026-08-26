@@ -73,7 +73,7 @@ border-color: blue;
 }
 .servicos li:hover h2 {
     font-size: 60px;
-    color:rgb(31, 123, 160)
+    color:rgb(2, 253, 241)
 }
 footer {
     text-align: center;
@@ -89,7 +89,7 @@ footer img{
     margin:20px 0 0;
 }
 main{
-    width: 940px;
+    width: 1800px;
     margin: 0 auto;
 }
 form{

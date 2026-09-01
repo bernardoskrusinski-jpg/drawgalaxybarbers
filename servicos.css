@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(0, 208, 255);
+    background-color: rgb(0, 121, 20);
     padding: 20px;
 }
 nav{
@@ -13,7 +13,7 @@ nav li{
 }
 nav a{
     text-transform: uppercase;
-    color:rgb(7, 76, 204);
+    color:rgb(0, 105, 0);
     font-weight:rgb(129, 21, 72);
     font-size: 22px;
     text-decoration: none;
@@ -43,7 +43,7 @@ header img{
     margin: 0 1.5%;
     padding: 30px 1px;
     box-sizing: border-box;
-    border: 2px solid rgb(26, 151, 189);
+    border: 2px solid rgb(0, 117, 10);
     border-radius: 30px;
 }
 .servicos img{
@@ -62,22 +62,22 @@ header img{
     margin-top: 10px;
 }
 nav a:hover{
-    color: rgb(0, 4, 255);
+    color: rgb(9, 110, 0);
     text-decoration: underline;
 }
 .servicos li:hover{
-    border-color: blue;
+    border-color: rgb(0, 117, 20);
 }
 .servicos li:active{
-border-color: blue;
+border-color: rgb(0, 100, 0);
 }
 .servicos li:hover h2 {
     font-size: 60px;
-    color:rgb(26, 28, 117)
+    color:rgb(3, 100, 0)
 }
 footer {
     text-align: center;
-    background-color:rgb(0, 208, 255);
+    background-color:rgb(3, 102, 0);
     padding: 39px 0;
 }
 footer img{

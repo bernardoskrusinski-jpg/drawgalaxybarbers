@@ -1,90 +1,93 @@
 header{
-    background-color: rgb(0, 121, 20);
-    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0;
 }
 nav{
     position: absolute;
-    top: 110px;
-    right: 0;
+    top: 80px;
+    right:  0px;
 }
-nav li{
+nav li {
     display: inline;
-    margin: 0 0 0 20px
+    margin: 0 0 0 15px;
 }
 nav a{
     text-transform: uppercase;
-    color:rgb(0, 105, 0);
-    font-weight:rgb(129, 21, 72);
+    color: rgb(253, 1, 1);
+    font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
 .caixa{
     position: relative;
-    width: 1800px;
-    height: 220px;
+    width: 1480px;
+    height: 200px;
     margin: 0 auto;
 }
-header img{
-    width: 200px;
+h1 img{
+    width: 150px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 50px;
+    left:  0px;
 }
 .servicos{
-    width: 1800px; 
+    width: 1480px;
     margin: 0 auto;
     padding: 50px 0;
 }
 .servicos li{
-    display: inline-block;
+   display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 1px;
+    padding: 30px 20x; 
     box-sizing: border-box;
-    border: 2px solid rgb(0, 117, 10);
-    border-radius: 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
 }
 .servicos img{
-    width: 220px;
+    width: 250px;
 }
-.servicos h2{
+
+.servicos h2 {
     font-size: 30px;
     font-weight: bold;
 }
-.descricao{
-    font-size: 19px;
+
+.descricao {
+    font-size: 18px;
 }
-.preco{
-    font-size: 20px;
+.preco {
+    font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
 }
-nav a:hover{
-    color: rgb(9, 110, 0);
-    text-decoration: underline;
+nav a:hover {
+     color: rgb(250, 1, 1);
+     text-decoration: underline;
 }
-.servicos li:hover{
-    border-color: rgb(0, 117, 20);
+.servicos li.hover {
+    border-color: rgb(0, 0, 0);
 }
-.servicos li:active{
-border-color: rgb(0, 100, 0);
+.servicos li:active {
+    border-color: rgb(247, 0, 0);
 }
 .servicos li:hover h2 {
-    font-size: 60px;
-    color:rgb(3, 100, 0)
+    color: rgb(255, 8, 8);
+    font-size: 70px ;
 }
 footer {
     text-align: center;
-    background-color:rgb(3, 102, 0);
-    padding: 39px 0;
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 40px 0px;
 }
-footer img{
+footer img {
     width: 100px;
 }
-.copyright {
-    color:black;
-    font-size:13px;
-    margin:20px 0 0;
+.copyrigth {
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    margin: 20px 0 0;
 }
